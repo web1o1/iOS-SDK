@@ -11,7 +11,6 @@
 typedef enum {
     km_online = 0,  // enable kernel with online recognition
     km_offline,     // enable kernel with offline recognition, need call loadKernelData before recognize
-    km_sequence     // enable kernel with online then offline recognition, need call loadKernelData for offline recognize
 } KernelMode;
 
 // following controls the kernel doing recognition in speed or accuracy

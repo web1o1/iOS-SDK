@@ -14,7 +14,6 @@ typedef enum {
     rs_matched,        // [offline][online]          recognized matched image, result with matched image names
     rs_similar,        // [offline][online][similar] recognized similar image, result with similar image names
     rs_need_more,      // [offline]        [similar] need more image input to get similar result
-    rs_barcode = 99,   // [offline][online][barcode] barcode or QRcode detected, result with decoded strings
 } RecognizeStatus;
 
 @interface RecognitionResult : NSObject
